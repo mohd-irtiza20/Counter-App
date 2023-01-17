@@ -1,35 +1,34 @@
-
 # Project Title
 
-The Word Counter website project is a tool that allows users to easily count the number of words and characters in a piece of text. The website includes a text box where users can input their text, and then the website will automatically count the number of words and characters in the text and display the result.
+The Count App is a simple web application that allows users to keep track of a specific number. The app is built using HTML, CSS, and JavaScript.
 
-The website also includes a range of features that make it easy to use, including the ability to copy and paste text directly into the text box. 
+The HTML provides the basic structure of the app, including the layout and the various elements such as buttons and text fields. The CSS is used to style the app, giving it a clean and modern look. The JavaScript is used to add functionality to the app, such as the ability to increase or decrease the count, and to display the current count.
 
-The website is designed to be responsive, which means it can be accessed from any device, including desktops, laptops, tablets, and smartphones. The website is built using HTML, CSS, and JavaScript, making it fast and responsive. 
-
+The app has a simple interface that consists of a text field displaying the current count, and three buttons labeled "increment", "decrement" and "reset".
 
 ## Demo
 
 Preview of the Project
 
-https://Word-and-Character-Counter.mohdirtiza.repl.co
-
+https://Counter-App.mohdirtiza.repl.co
 
 ## FAQ
 
 #### Question 1
-What is a word and character count app?
+What is the count app?
 #### Answer
-A word and character count app is a tool that helps users count the number of words and characters in a given text.
+The count app is a web application that allows users to increase, decrease or reset a numerical value by clicking on designated buttons.
 #### Question 2
-How does a word and character count app work?
+How is the count app built?
 #### Answer
-A word and character count app works by analyzing a given text and counting the number of words and characters within it. The app then displays the results in a clear and easy-to-read format.
+The count app is built using HTML, CSS, and JavaScript. HTML is used for the structure and layout of the app, CSS for styling and design, and JavaScript for the functionality and logic of the app.
 #### Question 3
-What are the benefits of using a word and character count app?
+Does the count app require any additional libraries or frameworks?
 #### Answer
-A word and character count app can be helpful for writers, editors, and other professionals who need to track the length of their writing. It can also be useful for students and other individuals who need to meet a specific word or character count for assignments or other projects.
+No, the count app does not require any additional libraries or frameworks. It is built using only HTML, CSS, and JavaScript.
 #### Question 4
-Can I copy and paste text into the app?
+Is the count app responsive?
 #### Answer
-Yes, you can copy and paste text into the app and it will automatically count the words and characters.
+Yes, the count app is responsive to different screen sizes.
+
+
