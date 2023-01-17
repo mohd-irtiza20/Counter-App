@@ -11,27 +11,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D8D8D8;
+    background: linear-gradient(to right, #303950, #9DF9FE);
     min-height: 100vh;
 }
 
 .container {
-    width: 310px;
+    width: 340px;
     height: 260px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    box-shadow: 0 0 10px black;
+    background: #f2ecec;
+    box-shadow: 0 0 10px rgb(37, 40, 40);
     border-radius: 17px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
 }
 
-h3,
-span {
+.container:hover {
+    width: 350px;
+    height: 270px;
+    color: wheat;
+
+}
+
+h3 {
     color: black;
-    font-size: 35px;
+    font-size: 36px;
+    user-select: none;
+}
+
+span {
+    color: #122620;
 }
 
 .btn {
@@ -45,14 +59,22 @@ span {
     border-radius: 20px;
     transition: transform 0.5s;
     border: none;
+    user-select: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .result {
-    font-weight: bold;
+    font-size: 80px;
+    font-weight: 500;
+    user-select: none;
+
 }
 
 .btn:active {
-    transform: translateY(5px);
+    transform: translateY(6px);
 }
 
 .btn:nth-child() {
