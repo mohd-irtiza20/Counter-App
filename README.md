@@ -10,7 +10,7 @@ The app has a simple interface that consists of a text field displaying the curr
 
 Preview of the Project
 
-https://Counter-App.mohdirtiza.repl.co
+https://mi-counterapp.netlify.app
 
 ## FAQ
 
